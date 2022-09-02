@@ -1,0 +1,24 @@
+#include<stdio.h>
+int fact(int a);
+int main()
+{
+	int a,s;
+	scanf("%d",&a);
+	s=fact(a);
+	printf("%d",s);
+}
+int fact(int a)
+{
+	int f=1;
+	while(a>0)
+	{
+		f=f*a;
+		a--;
+	}
+	return (f);
+ 
+}
+
+output:
+5
+120
